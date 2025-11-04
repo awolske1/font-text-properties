@@ -60,6 +60,7 @@ h3{
 	margin: 0;
 	padding: 4px;
 	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
+	text-decoration: solid underline; var(--mint) 4px;
 }
 
 nav{
@@ -74,6 +75,7 @@ nav ul{
 
 nav a{
 	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
@@ -82,6 +84,11 @@ nav a{
 	/* remove the underline */
 	/* make the font's size 1.2rem */
 	/* make the font bolder (600) */
+	color: var(--dk-gray);
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 
 nav a:hover{
@@ -106,6 +113,10 @@ p{
 	/* add an indent on the first line of 2rem */
 	/* center those paragraphs (not the text) on the page */
 	padding: 0.5rem;
+	max-width: 55ch;
+	text-indent: 2rem;
+	margin: 0 auto;
+	
 }
 
 a{
