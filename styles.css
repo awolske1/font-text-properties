@@ -1,7 +1,7 @@
 /* 
     ---------------------------------------------------------------
     Add your name to this file below:
-    NAME: 
+    NAME: Aaron Wolske
     ---------------------------------------------------------------
 */
 
@@ -24,6 +24,8 @@
 
     /* Font Stacks */
     /* add the two font stacks here */
+		--heading-fonts: 'Seymour One', sans-serif;
+    --body-fonts: 'Lato', Arial, sans-serif;
 }
 
 body{
